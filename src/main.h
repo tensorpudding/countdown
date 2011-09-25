@@ -1,4 +1,0 @@
-#ifndef COUNTDOWN_MAIN_H
-#define COUNTDOWN_MAIN_H
-
-#endif // COUNTDOWN_MAIN_H
