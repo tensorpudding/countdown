@@ -21,7 +21,7 @@ run_alarm (gpointer user_data)
   notify = notify_notification_new ("Times Up!",
                                     NULL,
                                     NULL);
-  notify_notification_set_timeout (notify, NOTIFY_EXPIRES_NEVER);
+  notify_notification_set_timeout (notify, NOTIFY_EXPIRES_DEFAULT);
   notify_notification_set_urgency (notify, NOTIFY_URGENCY_CRITICAL);
   notify_notification_show (notify, NULL);
 
