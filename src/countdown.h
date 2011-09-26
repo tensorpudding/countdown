@@ -1,6 +1,9 @@
 #ifndef _COUNTDOWN_H
 #define _COUNTDOWN_H
 
+#include <gtk/gtk.h>
+#include <glib.h>
+
 typedef struct
 {
   GtkBuilder *builder;
